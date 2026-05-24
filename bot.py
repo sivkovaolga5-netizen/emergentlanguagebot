@@ -3,9 +3,9 @@ import re
 import anthropic
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
-GROUP_ID =-1632746931    # 
-TOPIC_ID =7994             # 
-ALLOWED_USER_ID =367884670  # 
+GROUP_ID =-1632746931# 
+TOPIC_ID =7994# 
+ALLOWED_USER_ID =367884670# 
 
 async def handle_message(update, context):
     if not update.message:
